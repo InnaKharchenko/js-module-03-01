@@ -24,7 +24,7 @@ const playlist = {
     tracks: ['track-1', 'track-2', 'track-3'],
     trackCount: 3,
 };
-
+//playlist.rating = 10;
 console.log(playlist);
 // console.log(playlist.name);
 // console.log(playlist.tracks);
@@ -54,6 +54,29 @@ const colorPickerData = {
     [inputName]: inputVale,
 };
 
-console.log(colorPickerData);
+// console.log(colorPickerData);
 
 
+// const a = { x: 1, y: 2 };
+// const b = a;
+
+// console.log(b === a);
+
+// a.c = 100;
+
+// console.log(a);
+// console.log(b);
+
+// все обєкти 
+
+// const a = [1, 2, 3];
+
+// a.hello = ':'
+
+// const fn = function () {
+//     console.log('hello');
+// };
+
+// fn.hello = ';)';
+
+// console.dir(fn.hello);
